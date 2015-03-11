@@ -26,7 +26,7 @@
         // Load function on document ready.
         $(document).ready(function () {
             $('.globe').mouseover(function () {
-                $('.globe').find('*').css("color", "3e4dfcb");
+                $('.globe').find('*').css("color", "3e4dfcb !important");
                 $('#globe').attr("src", "images/europe-globe-blue.png");
             });
 
@@ -64,26 +64,41 @@
              <li><a href="#">Washing</a></li>
              <li><a href="#">CSR</a></li>
              <li><a href="#">Contact Us</a></li>
+             <li style="list-style-type: none; color: white; border: none; padding-left: 0em;"><a class="magglass" href="#"><img with="22" height="23" src='images/maglass-white.png' id="" class="magglass"/></a></li>
+
+             <li style="list-style-type: none; border: none; position: inherit;" class="globe-wrapper">
+
+               <div class="globe" style="padding: 0;">
+                 <a href="#">
+                   <img src='images/europe-globe.png' id="globe" class="globe-img"/> English
+                 </a>
+               </div>
+               <ul class="globe-wrapper" style="position: absolute; z-index:999;">
+                   <li class="globe-wrapper"><a href="#">Español</a></li>
+                   <li class="globe-wrapper"><a href="#">Русский</a></li>
+                   <li class="globe-wrapper"><a href="#">官话</a></li>
+                   <li class="globe-wrapper"><a href="#">العربية</a></li>
+               </ul>
+            </li>
            </ul>
 
-            <ul>
+            <!--<ul>
               <li style="list-style-type: none; color: white; border: none; padding-left: 0em;"><a class="magglass" href="#"><i class="magglass fa fa-search"></i></a></li>
 
-              <li style="list-style-type: none; border: none;" class="spacing globe-wrapper">
+              <li style="list-style-type: none; border: none;" class="globe-wrapper">
 
-                <div style="padding: 0;">
-                  <a class="globe" href="#">
-                    <img src='europe-globe.png' id="globe" class="globe-img"/> English
+                <div class="globe" style="padding: 0;">
+                  <a href="#">
+                    <img src='images/europe-globe.png' id="globe" class="globe-img"/> English
                   </a>
                 </div>
-                <ul>
+                <ul class="globe-wrapper" style="position: absolute;">
                     <li><a href="#">Español</a></li>
                     <li><a href="#">Русский</a></li>
                     <li><a href="#">官话</a></li>
                     <li><a href="#">العربية</a></li>
                 </ul>
-
-             </li>
+             </li>-->
              <!--<li style="color: white; border: none; padding-left: 2em; padding-right: 0;"><a href="#"><i class="fa fa-globe"></i></a></li>
              <li valign="middle" style="color: white; border: none; padding-left: 0em;"><a href="#"><i class="fa fa-search"></i></a></li>-->
             </ul>
