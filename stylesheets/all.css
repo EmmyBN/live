@@ -275,7 +275,7 @@ main {
     max-width: 170%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 4em;
+    padding-bottom: 0em;
     padding-top: 2em;
     padding-left: 0px;
     -moz-box-sizing: border-box;
@@ -291,6 +291,26 @@ main {
       display: block;
       clear: both; }
   /* line 12, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+  main .prom-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    padding-left: 0.2em !important;
+    padding-top: 0em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 2.38095%;
+    padding-right: 2.38095%; }
+    /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+    main .prom-container:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  /* line 20, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
   main .col1, main .col2 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -303,11 +323,11 @@ main {
     border-top: solid 0.1em #ccc;
     border-right: solid 0.1em #ccc;
     padding: 1em; }
-    /* line 19, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    /* line 27, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main .col1 p, main .col2 p {
       line-height: 1.2em;
       text-align: center; }
-  /* line 25, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+  /* line 33, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
   main .col3 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -318,11 +338,11 @@ main {
     padding-right: 2.38095%;
     border: solid 0.1em #ccc;
     padding: 1em; }
-    /* line 30, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    /* line 38, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main .col3 p {
       line-height: 1.2em;
       text-align: center; }
-  /* line 36, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+  /* line 44, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
   main .slides-container {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -343,7 +363,28 @@ main {
       padding-left: 0.09921%;
       padding-right: 0.09921%;
       padding-left: 0em; }
-      /* line 46, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 54, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      main .prom-container {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110% !important;
+        padding-bottom: 0.5em;
+        padding-left: 1.5em !important;
+        padding-top: 0em;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+        padding-left: 2.38095%;
+        padding-right: 2.38095%; }
+        /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+        main .prom-container:after {
+          content: " ";
+          display: block;
+          clear: both; }
+      /* line 64, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .promobox {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -363,7 +404,7 @@ main {
           content: " ";
           display: block;
           clear: both; }
-      /* line 54, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 72, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col1,
       main .col2 {
         -moz-box-sizing: border-box;
@@ -380,11 +421,11 @@ main {
         border-top: none;
         border-bottom: none;
         border-left: none; }
-        /* line 65, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+        /* line 83, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
         main .col1 p,
         main .col2 p {
           font-size: 0.8rem; }
-      /* line 70, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 88, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col3 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -397,10 +438,10 @@ main {
         vertical-align: center;
         color: #3e3e40;
         border: none; }
-        /* line 77, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+        /* line 95, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
         main .col3 p {
           font-size: 0.8rem; }
-      /* line 82, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 100, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .slides-container {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -411,10 +452,31 @@ main {
         padding-right: 2.38095%;
         margin-left: 0;
         margin-bottom: 2em; }
-      /* line 88, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 106, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main a {
         color: RGBA(0, 129, 198, 1);
         text-decoration: none; } }
+  @media screen and (min-width: 1024px) {
+    /* line 117, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    main .prom-container {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 1em;
+      padding-left: 0.2em !important;
+      padding-top: 0em;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.38095%;
+      padding-right: 2.38095%; }
+      /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+      main .prom-container:after {
+        content: " ";
+        display: block;
+        clear: both; } }
   @media screen and (min-width: 1366px) {
     /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main {
@@ -425,13 +487,13 @@ main {
       float: right;
       padding-left: 0.09921%;
       padding-right: 0.09921%; }
-      /* line 108, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 132, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .promobox {
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 1em;
-        padding-left: 0px;
+        padding-bottom: 0.6em;
+        padding-left: 0.2em !important;
         padding-top: 0em;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -445,42 +507,68 @@ main {
           content: " ";
           display: block;
           clear: both; }
-      /* line 116, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 140, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      main .prom-container {
+        max-width: 130%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110% !important;
+        padding-bottom: 0.4em;
+        padding-left: 1.5em !important;
+        padding-top: 0em;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+        padding-left: 2.38095%;
+        padding-right: 2.38095%; }
+        /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+        main .prom-container:after {
+          content: " ";
+          display: block;
+          clear: both; }
+      /* line 150, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col1, main .col2 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         width: 33.33333%;
         float: left;
-        padding-left: 0.39683%;
-        padding-right: 0.39683%;
+        padding-left: 0.11338%;
+        padding-right: 0.11338%;
         text-align: center;
         vertical-align: center;
         color: #3e3e40;
         border-right: solid 0.1em #595a5c;
         border-top: none;
         border-bottom: none;
-        border-left: none; }
-        /* line 127, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+        border-left: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-bottom: 0; }
+        /* line 165, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
         main .col1 p, main .col2 p {
           font-size: 1rem; }
-      /* line 130, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 168, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col3 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         width: 33.33333%;
-        float: left;
-        padding-left: 0.39683%;
-        padding-right: 0.39683%;
+        float: right;
+        padding-left: 0.11338%;
+        padding-right: 0.11338%;
         text-align: center;
         vertical-align: center;
         color: #3e3e40;
-        border: none; }
-        /* line 138, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+        border: none;
+        padding-top: 0;
+        padding-bottom: 0; }
+        /* line 178, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
         main .col3 p {
           font-size: 1rem; }
-      /* line 141, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 181, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .slides-container {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -489,6 +577,7 @@ main {
         float: left;
         padding-left: 2.38095%;
         padding-right: 2.38095%;
+        width: 110% !important;
         margin-left: 0;
         margin-bottom: 2em; } }
 
@@ -544,8 +633,8 @@ main {
       -webkit-transition: all 1s ease-out;
       transition: all 1s ease-out;
       margin-left: 1.75em;
-      padding-left: 13em;
-      padding-top: 3em; } }
+      padding-left: 8.15em;
+      padding-top: 2.5em; } }
 
 /* line 7, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
 *, *:after, *:before {
@@ -842,11 +931,12 @@ main {
     -o-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
     transition: all 1s ease-out;
-    width: 80%;
+    width: 100%;
     max-width: 178px;
     float: left;
     padding-left: 1em;
-    padding-top: 0.5em; }
+    padding-top: 0.5em;
+    vertical-align: middle; }
 
 /*! http://responsiveslides.com v1.54 by @viljamis */
 /* line 6, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_slideshow.scss */
@@ -1151,7 +1241,7 @@ footer {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 91.66667%;
+  width: 100%;
   float: left;
   padding-left: 0.09921%;
   padding-right: 0.09921%;
@@ -1194,29 +1284,27 @@ footer {
       padding-right: 0.09921%;
       margin-left: 0%;
       font-size: 1rem; } }
-
-/* line 30, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
-.sidebar__list {
-  display: inline-block;
-  width: 100%; }
-
-/* line 35, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
-.sidebar__link {
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  padding-left: 5em;
-  display: block;
-  text-decoration: none;
-  padding: 5px;
-  color: RGBA(0, 129, 198, 1); }
-  /* line 47, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
-  .sidebar__link .fa-chevron-right {
+  /* line 30, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+  .sidebar .sidebar__list {
+    display: inline-block;
+    width: 100%; }
+  /* line 35, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+  .sidebar .sidebar__link {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    padding-left: 5em;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: RGBA(0, 129, 198, 1); }
+  /* line 49, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+  .sidebar .fa-chevron-right {
     display: none;
     top: 1px;
     color: RGBA(0, 129, 198, 1);
@@ -1225,12 +1313,12 @@ footer {
     line-height: 1px;
     padding-left: 1em;
     vertical-align: baseline; }
-  /* line 58, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
-  .sidebar__link:hover {
+  /* line 60, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+  .sidebar:hover {
     background: RGBA(0, 129, 198, 1);
     color: RGBA(255, 255, 255, 1); }
-    /* line 62, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
-    .sidebar__link:hover i {
+    /* line 64, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+    .sidebar:hover i {
       top: 1px;
       color: RGBA(255, 255, 255, 1);
       font-size: 0.7rem;
