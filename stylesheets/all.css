@@ -156,6 +156,46 @@ header {
       header .animenu__nav li a {
         padding: 1em;
         font-size: 1rem; } }
+  @media screen and (min-width: 1024px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+    header {
+      -moz-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out;
+      -webkit-transition: all 1s ease-out;
+      transition: all 1s ease-out; }
+      /* line 61, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      header .h-container {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 1200px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+        padding-left: 0.09921%;
+        padding-right: 0.09921%; }
+        /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+        header .h-container:after {
+          content: " ";
+          display: block;
+          clear: both; }
+      /* line 68, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      header .magglass {
+        color: RGBA(255, 255, 255, 1);
+        font-size: 1.7rem;
+        padding-left: 0em; }
+      /* line 74, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      header .spacing {
+        color: white;
+        border: none;
+        padding-left: 1em; }
+      /* line 78, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      header .animenu__nav li a {
+        padding: 1.2em;
+        font-size: 1rem; } }
   @media screen and (min-width: 1366px) {
     /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
     header {
@@ -163,7 +203,7 @@ header {
       -o-transition: all 1s ease-out;
       -webkit-transition: all 1s ease-out;
       transition: all 1s ease-out; }
-      /* line 60, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      /* line 88, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
       header .h-container {
         width: 100%;
         max-width: 1200px;
@@ -175,17 +215,17 @@ header {
         float: left;
         padding-left: 0.09921%;
         padding-right: 0.09921%; }
-      /* line 67, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      /* line 95, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
       header .magglass {
         color: RGBA(255, 255, 255, 1);
         font-size: 1.7rem;
         padding-left: 0em; }
-      /* line 73, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      /* line 101, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
       header .spacing {
         color: white;
         border-right: none;
         padding-left: 6em; }
-      /* line 80, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      /* line 108, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
       header .animenu__nav li a {
         padding: 1.5em;
         margin-bottom: 0em;
@@ -194,17 +234,17 @@ header {
 /*.menu {
   float: right;
 }*/
-/* line 95, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+/* line 123, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
 .magglass {
   color: RGBA(255, 255, 255, 1);
   font-size: 1.5rem;
   padding-left: 0em; }
 
-/* line 101, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+/* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
 .magglass li a:hover {
   color: #0000ff; }
 
-/* line 105, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+/* line 133, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
 .magglass:hover {
   background: none !important;
   font-color: #007bc0; }
@@ -216,6 +256,10 @@ footer {
   height: 230px;
   border-top: 0.6em solid RGBA(0, 129, 198, 1); }
   /* line 7, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+  footer table.center {
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 12, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
   footer .box1 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -225,10 +269,10 @@ footer {
     padding-left: 2.38095%;
     padding-right: 2.38095%;
     text-align: center; }
-    /* line 11, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+    /* line 16, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
     footer .box1 p {
       font-size: 1rem; }
-  /* line 15, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+  /* line 20, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
   footer .box2 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -239,10 +283,10 @@ footer {
     padding-right: 2.38095%;
     font-size: 0.9rem;
     text-align: center; }
-    /* line 20, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+    /* line 25, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
     footer .box2 p {
       font-size: 0.8rem; }
-  /* line 25, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+  /* line 30, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
   footer .box3 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -253,11 +297,11 @@ footer {
     padding-right: 2.38095%;
     font-size: 0.9rem;
     text-align: center; }
-    /* line 31, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+    /* line 36, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
     footer .box3 p {
       line-height: 1.3em;
-      font-size: 0.7rem; }
-  /* line 37, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      font-size: 0.9rem; }
+  /* line 42, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
   footer a {
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
@@ -265,13 +309,13 @@ footer {
     transition: all 0.5s ease-out;
     text-decoration: none;
     color: RGBA(255, 255, 255, 1); }
-    /* line 42, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+    /* line 47, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
     footer a:hover, footer a:active, footer a:focus {
       color: RGBA(0, 129, 198, 1); }
-      /* line 46, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 51, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer a:hover i, footer a:active i, footer a:focus i {
         color: RGBA(0, 129, 198, 1); }
-  /* line 52, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+  /* line 57, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
   footer i {
     color: RGBA(255, 255, 255, 1);
     font-size: 1.4rem !important;
@@ -289,7 +333,7 @@ footer {
       padding-right: 0.09921%;
       padding: 0px;
       height: auto; }
-      /* line 65, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 72, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box1 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -300,13 +344,13 @@ footer {
         padding-right: 0.79365%;
         padding-left: 3em;
         text-align: left; }
-        /* line 70, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 77, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box1 .tel {
           padding-top: 30px !important; }
-        /* line 73, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 80, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box1 p {
           font-size: 1rem; }
-        /* line 78, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 85, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box1 a {
           -moz-transition: all 0.5s ease-out;
           -o-transition: all 0.5s ease-out;
@@ -314,13 +358,13 @@ footer {
           transition: all 0.5s ease-out;
           text-decoration: none;
           color: RGBA(255, 255, 255, 1); }
-          /* line 84, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+          /* line 91, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
           footer .box1 a:hover, footer .box1 a:active, footer .box1 a:focus {
             color: RGBA(0, 129, 198, 1); }
-            /* line 88, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+            /* line 95, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
             footer .box1 a:hover i, footer .box1 a:active i, footer .box1 a:focus i {
               color: RGBA(0, 129, 198, 1); }
-      /* line 96, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 103, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box2 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -332,10 +376,10 @@ footer {
         font-size: 0.9rem;
         text-align: center;
         padding-top: 1.3em; }
-        /* line 103, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 110, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box2 p {
           font-size: 0.8rem; }
-      /* line 108, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 115, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box3 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -348,10 +392,10 @@ footer {
         padding-right: 3em;
         text-align: right;
         padding-top: 1em; }
-        /* line 115, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 122, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box3 p {
           line-height: 1.3em;
-          font-size: 0.7rem; } }
+          font-size: 0.8rem; } }
   @media screen and (min-width: 1024px) {
     /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
     footer {
@@ -363,7 +407,7 @@ footer {
       padding-left: 0.09921%;
       padding-right: 0.09921%;
       height: auto; }
-      /* line 126, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 133, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box1 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -373,14 +417,14 @@ footer {
         padding-left: 0.79365%;
         padding-right: 0.79365%;
         text-align: left; }
-        /* line 130, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 137, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box1 .tel {
           padding-top: 30px !important; }
-        /* line 132, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 139, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box1 p {
           font-size: 1.2rem;
           vertical-align: text-center; }
-      /* line 138, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 145, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box2 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -391,7 +435,7 @@ footer {
         padding-right: 0.79365%;
         font-size: 0.9rem;
         text-align: center; }
-      /* line 149, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 156, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box3 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -404,9 +448,10 @@ footer {
         padding-right: 3em;
         text-align: right;
         vertical-align: top !important; }
-        /* line 158, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 165, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box3 p {
-          line-height: 1.3em; } }
+          line-height: 1.3em;
+          font-size: 0.8rem; } }
   @media screen and (min-width: 1366px) {
     /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
     footer {
@@ -417,7 +462,7 @@ footer {
       float: left;
       padding-left: 0.09921%;
       padding-right: 0.09921%; }
-      /* line 167, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 176, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box1 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -425,15 +470,14 @@ footer {
         width: 33.33333%;
         float: left;
         padding-left: 0.79365%;
-        padding-right: 0.79365%;
-        text-align: left; }
-        /* line 172, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
-        footer .box1 .tel {
-          padding-top: 30px !important; }
-        /* line 175, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        padding-right: 0.79365%; }
+        /* line 180, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        footer .box1 td {
+          text-align: center !important; }
+        /* line 186, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box1 p {
           font-size: 1.2rem; }
-      /* line 180, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+      /* line 191, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box2 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -444,7 +488,10 @@ footer {
         padding-right: 0.79365%;
         font-size: 0.9rem;
         text-align: center; }
-      /* line 189, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        /* line 197, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        footer .box2 .t-c {
+          padding-bottom: 9px !important; }
+      /* line 200, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
       footer .box3 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -455,12 +502,12 @@ footer {
         padding-right: 0.79365%;
         font-size: 0.9rem;
         padding-left: 0em;
-        text-align: right; }
-        /* line 196, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
+        padding-bottom: 16px; }
+        /* line 208, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_footer.scss */
         footer .box3 p {
-          font-size: 0.8rem;
+          font-size: 0.9rem;
           line-height: 1.4em;
-          letter-spacing: 0.0625em; } }
+          text-align: right !important; } }
 
 /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
 main {
@@ -598,7 +645,7 @@ main {
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 0em;
-        padding-left: 0em;
+        padding-left: 0.7em;
         padding-top: 0em; }
         /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
         main .promobox:after {
@@ -651,14 +698,22 @@ main {
         float: left;
         padding-left: 2.38095%;
         padding-right: 2.38095%;
+        max-width: 99%;
+        margin-left: auto;
+        margin-right: auto;
         margin-left: 0;
         margin-bottom: 2em; }
-      /* line 106, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+        /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+        main .slides-container:after {
+          content: " ";
+          display: block;
+          clear: both; }
+      /* line 107, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main a {
         color: RGBA(0, 129, 198, 1);
         text-decoration: none; } }
   @media screen and (min-width: 1024px) {
-    /* line 117, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    /* line 118, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main .promobox {
       max-width: 80%;
       margin-left: auto;
@@ -678,14 +733,14 @@ main {
         content: " ";
         display: block;
         clear: both; }
-    /* line 125, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    /* line 126, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main .prom-container {
-      max-width: 110%;
+      max-width: 125%;
       margin-left: auto;
       margin-right: auto;
-      width: 110% !important;
-      padding-bottom: 0.4em;
-      padding-left: 1.5em !important;
+      width: 125% !important;
+      margin-bottom: 1.1em;
+      margin-left: 0em !important;
       padding-top: 0em;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
@@ -700,7 +755,7 @@ main {
         content: " ";
         display: block;
         clear: both; }
-    /* line 136, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    /* line 137, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main .col1, main .col2 {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
@@ -719,10 +774,10 @@ main {
       padding-top: 0;
       padding-bottom: 0;
       padding-bottom: 0; }
-      /* line 151, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 152, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col1 p, main .col2 p {
         font-size: 0.9rem; }
-    /* line 154, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    /* line 155, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main .col3 {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
@@ -737,10 +792,10 @@ main {
       border: none;
       padding-top: 0;
       padding-bottom: 0; }
-      /* line 164, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 165, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col3 p {
         font-size: 0.9rem; }
-    /* line 167, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+    /* line 168, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main .slides-container {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
@@ -749,10 +804,17 @@ main {
       float: left;
       padding-left: 2.38095%;
       padding-right: 2.38095%;
-      width: 110% !important;
-      margin-left: 0;
-      margin-bottom: 2em;
-      padding-left: 0.2% !important; } }
+      max-width: 120%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 120% !important;
+      margin-left: 0.8em !important;
+      margin-bottom: 2em; }
+      /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+      main .slides-container:after {
+        content: " ";
+        display: block;
+        clear: both; } }
   @media screen and (min-width: 1366px) {
     /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
     main {
@@ -763,7 +825,7 @@ main {
       float: right;
       padding-left: 0.09921%;
       padding-right: 0.09921%; }
-      /* line 183, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 185, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .promobox {
         max-width: 80%;
         margin-left: auto;
@@ -783,14 +845,14 @@ main {
           content: " ";
           display: block;
           clear: both; }
-      /* line 191, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 193, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .prom-container {
         max-width: 130%;
         margin-left: auto;
         margin-right: auto;
-        width: 110% !important;
-        padding-bottom: 0.4em;
-        padding-left: 1.5em !important;
+        width: 100% !important;
+        padding-bottom: 1.5em;
+        padding-left: 0.4em !important;
         padding-top: 0em;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -804,7 +866,7 @@ main {
           content: " ";
           display: block;
           clear: both; }
-      /* line 201, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 203, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col1, main .col2 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -823,10 +885,10 @@ main {
         padding-top: 0;
         padding-bottom: 0;
         padding-bottom: 0; }
-        /* line 216, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+        /* line 218, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
         main .col1 p, main .col2 p {
           font-size: 1rem; }
-      /* line 219, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 221, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .col3 {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -841,10 +903,10 @@ main {
         border: none;
         padding-top: 0;
         padding-bottom: 0; }
-        /* line 229, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+        /* line 231, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
         main .col3 p {
           font-size: 1rem; }
-      /* line 232, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
+      /* line 234, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_main.scss */
       main .slides-container {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -853,10 +915,17 @@ main {
         float: left;
         padding-left: 2.38095%;
         padding-right: 2.38095%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         width: 110% !important;
-        margin-left: 0;
         margin-bottom: 2em;
-        padding-left: 1.5% !important; } }
+        margin-left: 0em !important; }
+        /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+        main .slides-container:after {
+          content: " ";
+          display: block;
+          clear: both; } }
 
 /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_container.scss */
 .layout {
@@ -887,7 +956,7 @@ main {
       margin-right: auto;
       padding-bottom: 0em;
       padding-top: 2em;
-      padding-left: 2em; }
+      padding-left: 1.7em; }
       /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
       .layout:after {
         content: " ";
@@ -901,7 +970,7 @@ main {
       -webkit-transition: all 1s ease-out;
       transition: all 1s ease-out;
       padding-top: 2em;
-      padding-left: 6.7em; } }
+      padding-left: 3em; } }
   @media screen and (min-width: 1366px) {
     /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_container.scss */
     .layout {
@@ -909,7 +978,7 @@ main {
       -o-transition: all 1s ease-out;
       -webkit-transition: all 1s ease-out;
       transition: all 1s ease-out;
-      margin-left: 1.75em;
+      margin-left: 6em;
       padding-left: 8.17em;
       padding-top: 2.5em; } }
 
@@ -1004,80 +1073,95 @@ main {
 /* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
 .animenu__nav {
   background-color: none; }
-  /* line 132, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  @media screen and (min-width: 700px) {
+    /* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    .animenu__nav {
+      float: left;
+      padding-left: 3.45em !important; } }
+  @media screen and (min-width: 1024px) {
+    /* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    .animenu__nav {
+      float: left;
+      padding-left: 2.07em !important; } }
+  @media screen and (min-width: 1366px) {
+    /* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    .animenu__nav {
+      float: left;
+      padding-left: 2.8em !important; } }
+  /* line 136, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav li {
     position: relative;
     border-right: 1px solid #444444; }
-    /* line 138, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 142, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li .company {
       border-right: 1px solid #444444;
       border-left: 1px solid #444444; }
-    /* line 143, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 147, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li .spacing {
       color: white;
       border: none;
       padding-left: 3em; }
-    /* line 147, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 151, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li a {
       padding: 1.5em;
       color: #fff; }
-    /* line 153, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 157, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li:hover ul {
       opacity: 1;
       visibility: visible;
       margin: 0; }
-  /* line 161, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 165, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav li:first-of-type {
     position: relative;
     border-right: 1px solid #444444;
     border-left: 1px solid #444444; }
 
 @media screen and (max-width: 700px) {
-  /* line 173, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 177, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu {
     display: block;
     padding-top: 0.7em;
     padding-right: 1.3em; }
 
-  /* line 179, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 183, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__toggle {
     display: inline-block; }
 
-  /* line 183, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 187, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav,
   .animenu__nav__child {
     display: none; }
 
-  /* line 195, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 199, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav {
     margin-left: 2em; }
-    /* line 199, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 203, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li {
       width: 100%;
       border-right: 0;
       border-bottom: 1px solid #515151; }
-      /* line 204, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+      /* line 208, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
       .animenu__nav li a {
         padding: 1em;
         border-color: #111;
         position: relative; }
-        /* line 210, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+        /* line 214, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
         .animenu__nav li a .globe-img img {
           height: 30px;
           width: 30px; }
-        /* line 215, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+        /* line 219, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
         .animenu__nav li a .magglass {
           color: RGBA(255, 255, 255, 1);
           font-size: 1.7rem; }
-    /* line 222, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 226, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav a:hover {
       background-color: RGBA(0, 129, 198, 1);
       border-color: RGBA(0, 129, 198, 1);
       color: #fff; } }
-/* line 238, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+/* line 242, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
 .animenu__nav--open {
   display: block !important; }
-  /* line 241, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 245, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav--open .animenu__nav__child {
     display: block; }
 
@@ -1212,8 +1296,18 @@ main {
     max-width: 178px;
     float: left;
     padding-left: 1em;
-    padding-top: 0.5em;
+    padding-top: 1.1em;
     vertical-align: middle; }
+    @media screen and (min-width: 1024px) {
+      /* line 3, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_logo.scss */
+      .logo img {
+        padding-top: 0.55em !important;
+        margin-left: 0.7em !important; } }
+    @media screen and (min-width: 1366px) {
+      /* line 3, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_logo.scss */
+      .logo img {
+        padding-top: 0.7em !important;
+        margin-left: 4.2em !important; } }
 
 /*! http://responsiveslides.com v1.54 by @viljamis */
 /* line 6, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_slideshow.scss */
@@ -1293,7 +1387,7 @@ main {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      width: 12.5%;
+      width: 14.58333%;
       float: left;
       padding-left: 0.09921%;
       padding-right: 0.09921%;
@@ -1309,7 +1403,7 @@ main {
       padding-bottom: 0em; }
       /* line 21, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
       .sidebar .sidebar__link {
-        font-size: 1rem; } }
+        font-size: 0.9rem; } }
   @media screen and (min-width: 1366px) {
     /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
     .sidebar {
@@ -1341,18 +1435,30 @@ main {
     text-decoration: none;
     padding: 5px;
     color: RGBA(0, 129, 198, 1); }
+    @media screen and (min-width: 700px) {
+      /* line 36, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+      .sidebar .sidebar__link {
+        font-size: 0.9rem;
+        padding: 3px !important; } }
     @media screen and (min-width: 1024px) {
       /* line 36, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
       .sidebar .sidebar__link {
-        font-size: 1rem; } }
-  /* line 54, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
-  .sidebar .sidebar__list-item {
-    padding-left: 0.7em !important; }
-    @media screen and (min-width: 1024px) {
-      /* line 54, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
-      .sidebar .sidebar__list-item {
-        padding-left: 0.4em !important; } }
-  /* line 63, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+        font-size: 1rem;
+        padding: 20px; } }
+    @media screen and (min-width: 1366px) {
+      /* line 36, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+      .sidebar .sidebar__link {
+        font-size: 1rem;
+        padding: 5px !important; } }
+  @media screen and (min-width: 700px) {
+    /* line 67, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+    .sidebar .sidebar__list-item {
+      padding-left: none !important; } }
+  @media screen and (min-width: 1024px) {
+    /* line 67, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+    .sidebar .sidebar__list-item {
+      padding-left: 0.4em !important; } }
+  /* line 78, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
   .sidebar .fa-chevron-right {
     display: none;
     top: 1px;
@@ -1362,11 +1468,11 @@ main {
     line-height: 1px;
     padding-left: 1em;
     vertical-align: baseline; }
-  /* line 74, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+  /* line 89, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
   .sidebar:hover {
     background: RGBA(0, 129, 198, 1);
     color: RGBA(255, 255, 255, 1); }
-    /* line 78, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
+    /* line 93, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_sidebar.scss */
     .sidebar:hover i {
       top: 1px;
       color: RGBA(255, 255, 255, 1);
