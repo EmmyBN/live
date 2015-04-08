@@ -1159,7 +1159,7 @@ main {
     .animenu__nav {
       float: left;
       padding-left: 0.4em !important;
-      padding-right: 25px !important; } }
+      padding-right: 15px !important; } }
   @media screen and (min-width: 1024px) {
     /* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav {
