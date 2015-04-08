@@ -238,6 +238,11 @@ header {
   /* line 122, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
   header .sg-icons {
     padding-left: 137px !important; }
+    @media screen and (min-width: 718px) {
+      /* line 122, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+      header .sg-icons {
+        padding-top: 2px !important;
+        padding-left: 10px !important; } }
     @media screen and (min-width: 700px) {
       /* line 122, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
       header .sg-icons {
@@ -257,17 +262,17 @@ header {
 /*.menu {
   float: right;
 }*/
-/* line 139, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+/* line 140, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
 .magglass {
   color: RGBA(255, 255, 255, 1);
   font-size: 1.5rem;
   padding-left: 2em; }
 
-/* line 145, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+/* line 146, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
 .magglass li a:hover {
   color: #0000ff; }
 
-/* line 149, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
+/* line 150, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
 .magglass:hover {
   background: none !important;
   font-color: #007bc0; }
@@ -1109,6 +1114,12 @@ main {
       float: left;
       padding-left: 0.4em !important;
       padding-right: 55px !important; } }
+  @media screen and (min-width: 718px) {
+    /* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    .animenu__nav {
+      float: left;
+      padding-left: 0.4em !important;
+      padding-right: 15px !important; } }
   @media screen and (min-width: 1024px) {
     /* line 129, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav {
@@ -1121,80 +1132,80 @@ main {
       float: left;
       padding-left: 2.8em !important;
       padding-right: 137px !important; } }
-  /* line 136, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 138, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav li {
     position: relative;
     border-right: 1px solid #444444; }
-    /* line 142, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 144, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li .company {
       border-right: 1px solid #444444;
       border-left: 1px solid #444444; }
-    /* line 147, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 149, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li .spacing {
       color: white;
       border: none;
       padding-left: 3em; }
-    /* line 151, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 153, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li a {
       padding: 1.5em;
       color: #fff; }
-    /* line 157, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 159, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li:hover ul {
       opacity: 1;
       visibility: visible;
       margin: 0; }
-  /* line 165, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 167, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav li:first-of-type {
     position: relative;
     border-right: 1px solid #444444;
     border-left: 1px solid #444444; }
 
 @media screen and (max-width: 700px) {
-  /* line 177, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 179, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu {
     display: block;
     padding-top: 0.7em;
     padding-right: 1.3em; }
 
-  /* line 183, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 185, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__toggle {
     display: inline-block; }
 
-  /* line 187, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 189, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav,
   .animenu__nav__child {
     display: none; }
 
-  /* line 199, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 201, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav {
     margin-left: 2em; }
-    /* line 203, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 205, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav li {
       width: 100%;
       border-right: 0;
       border-bottom: 1px solid #515151; }
-      /* line 208, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+      /* line 210, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
       .animenu__nav li a {
         padding: 1em;
         border-color: #111;
         position: relative; }
-        /* line 214, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+        /* line 216, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
         .animenu__nav li a .globe-img img {
           height: 30px;
           width: 30px; }
-        /* line 219, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+        /* line 221, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
         .animenu__nav li a .magglass {
           color: RGBA(255, 255, 255, 1);
           font-size: 1.7rem; }
-    /* line 226, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+    /* line 228, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
     .animenu__nav a:hover {
       background-color: RGBA(0, 129, 198, 1);
       border-color: RGBA(0, 129, 198, 1);
       color: #fff; } }
-/* line 242, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+/* line 244, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
 .animenu__nav--open {
   display: block !important; }
-  /* line 245, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
+  /* line 247, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__nav--open .animenu__nav__child {
     display: block; }
 
