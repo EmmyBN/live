@@ -357,6 +357,7 @@ header {
         font-size: 1rem; } }
   /* line 204, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
   header .sg-icons {
+    padding-bottom: 5px;
     padding-left: 137px !important; }
     @media screen and (min-width: 700px) {
       /* line 204, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/layouts/_header.scss */
@@ -1770,8 +1771,8 @@ main {
   /* line 185, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu {
     display: block;
-    padding-top: 0.7em;
-    padding-right: 1.3em; }
+    padding-top: 0.6em;
+    padding-right: 0.8em; }
 
   /* line 191, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_responsive-menu.scss */
   .animenu__toggle {
@@ -1824,8 +1825,8 @@ main {
   width: 120%;
   max-width: 178px;
   float: left;
-  padding-left: 1em !important;
-  padding-top: 0.36em !important;
+  padding-left: 0.85em !important;
+  padding-top: 0.5em !important;
   vertical-align: middle; }
   @media screen and (min-width: 700px) {
     /* line 3, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_logo.scss */
