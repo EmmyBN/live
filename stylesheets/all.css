@@ -2247,3 +2247,204 @@ li#emy_show_me_only_on_collapsed_menu {
   .globe-wrapper ul li a:hover {
     font-color: #007bc0 !important;
     background: none  !important; } }
+/* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+.img-container {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  padding-left: 0.2em !important;
+  padding-top: 0em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 2.38095%;
+  padding-right: 2.38095%; }
+  /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .img-container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 8, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+  .img-container img {
+    max-width: 200%;
+    height: auto; }
+  @media screen and (min-width: 700px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+    .img-container {
+      width: 110% !important;
+      max-width: 530px;
+      padding-bottom: 1.6em;
+      margin-left: 0.6em !important;
+      padding-top: 0.7em;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.38095%;
+      padding-right: 2.38095%; }
+      /* line 21, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container img {
+        max-width: 100%;
+        height: auto; } }
+  @media screen and (min-width: 718px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+    .img-container {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      max-width: 704px;
+      margin-bottom: 1em;
+      margin-left: 0em !important;
+      padding-top: 1em;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.38095%;
+      padding-right: 2.38095%;
+      font-size: 0.7rem; }
+      /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+      .img-container:after {
+        content: " ";
+        display: block;
+        clear: both; }
+      /* line 38, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container img {
+        max-width: 100%;
+        height: auto; } }
+  @media screen and (min-width: 800px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+    .img-container {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      max-width: 704px;
+      margin-bottom: 1em;
+      margin-left: 0em !important;
+      padding-top: 1em;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.38095%;
+      padding-right: 2.38095%;
+      font-size: 0.7rem; }
+      /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+      .img-container:after {
+        content: " ";
+        display: block;
+        clear: both; }
+      /* line 54, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container img {
+        max-width: 100%;
+        height: auto; } }
+  @media screen and (min-width: 900px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+    .img-container {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      max-width: 704px;
+      margin-bottom: 1em;
+      margin-left: 1em !important;
+      padding-top: 1em;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.38095%;
+      padding-right: 2.38095%;
+      font-size: 0.7rem; }
+      /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+      .img-container:after {
+        content: " ";
+        display: block;
+        clear: both; }
+      /* line 70, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container img {
+        max-width: 100%;
+        height: auto; } }
+  @media screen and (min-width: 1024px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+    .img-container {
+      max-width: 125%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 125% !important;
+      max-width: 750px;
+      margin-bottom: 1.1em;
+      margin-left: 1.1em !important;
+      padding-top: 1em;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.38095%;
+      padding-right: 2.38095%;
+      font-size: 0.7rem; }
+      /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+      .img-container:after {
+        content: " ";
+        display: block;
+        clear: both; }
+      /* line 87, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container img {
+        max-width: 100%;
+        height: auto; } }
+  @media screen and (min-width: 1200px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+    .img-container {
+      margin-left: 0em !important;
+      width: 700px;
+      max-width: 741px; }
+      /* line 99, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container img {
+        max-width: 100%;
+        height: auto; } }
+  @media screen and (min-width: 1366px) {
+    /* line 1, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+    .img-container {
+      max-width: 130%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 1.5em;
+      margin-left: 0.8em !important;
+      padding-top: 0em;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 2.38095%;
+      padding-right: 2.38095%; }
+      /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+      .img-container:after {
+        content: " ";
+        display: block;
+        clear: both; }
+      /* line 115, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container img {
+        max-width: 100%;
+        height: auto; }
+      /* line 120, C:/Users/EmyBN/Desktop/minco-dev/source/stylesheets/components/_company.scss */
+      .img-container .info {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px; }
+        /* line 12, C:/Ruby21/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+        .img-container .info:after {
+          content: " ";
+          display: block;
+          clear: both; } }
